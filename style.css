@@ -65,3 +65,20 @@ img{
 .clear {
   clear:both;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 419px) {
+  .row {
+    width: auto;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

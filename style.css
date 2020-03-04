@@ -69,7 +69,11 @@ img{
 /* RESPONSIVE */
 @media screen and (max-width: 419px) {
   .row {
-    width: auto;
+    max-width: 100%;
+  }
+
+  .row img {
+    max-width: 100%;
   }
 
   #lezioni .row > .left,
@@ -80,9 +84,5 @@ img{
     float: none;
     width: 100%;
     margin-bottom: 30px;
-  }
-
-  img {
-    max-width: 100%;
   }
 }
